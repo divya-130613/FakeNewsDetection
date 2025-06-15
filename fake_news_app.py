@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
 # Load dataset
-df = pd.read_csv("sample_fake_news_dataset.csv")
+df = pd.read_csv("augmented_fake_news_dataset.csv")
 
 # Split into features and labels
 X = df['text']
